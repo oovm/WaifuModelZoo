@@ -44,7 +44,7 @@ module.exports = {
                         collapsable: true,
                         children: [
                             ['/zh/wolfram/', 'Install'],
-                            ['/zh/wolfram/', 'Usage'],
+                            ['/zh/wolfram/random.md', 'Usage'],
                             ['/zh/wolfram/3rd.md', '3rd party API'],
                         ]
                     },
