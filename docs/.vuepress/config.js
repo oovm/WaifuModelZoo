@@ -13,7 +13,7 @@ module.exports = {
         }
     },
     head: [
-        ['link', { rel: 'shortcut icon', type: "image/x-icon", href: './favicon.png' }]
+        ['link', { rel: 'shortcut icon', type: "image/x-icon", href: '/favicon.png' }]
     ],
     themeConfig: {
         repo: 'GalAster/WaifuModelZoo',
@@ -29,7 +29,7 @@ module.exports = {
                 selectText: '选择语言',
                 ariaLabel: "选择语言",
                 editLinkText: '在 GitHub 上编辑此页',
-                lastUpdated: '上次更新',
+                lastUpdated: '最后更新',
                 sidebar: [
                     {
                         title: 'Introduce',

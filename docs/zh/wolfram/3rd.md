@@ -1,3 +1,7 @@
+[[toc]]
+
+
+
 ## [WaifuLab](https://waifulabs.com/)
 
 ### `WaifuLab[index]`
@@ -14,7 +18,7 @@
 
 ![](https://i.loli.net/2019/07/29/5d3ed0e99e94223908.png)
 
-### `WaifuLabGrid[]`
+### `WaifuLabGrid[ ]`
 
 ![](https://i.loli.net/2019/07/29/5d3ed0e98703792218.png)
 
