@@ -7102,7 +7102,7 @@ vuepress-plugin-container@^2.0.0:
   dependencies:
     markdown-it-container "^2.0.0"
 
-vuepress-plugin-mathjax@^1.2.8:
+vuepress-plugin-mathjax@^1.2.0:
   version "1.2.8"
   resolved "https://registry.npm.taobao.org/vuepress-plugin-mathjax/download/vuepress-plugin-mathjax-1.2.8.tgz#decec38e9dbb82de9cf79f042463fa4a56e25340"
   integrity sha1-3s7Djp27gt6c958EJGP6SlbiU0A=

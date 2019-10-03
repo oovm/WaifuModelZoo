@@ -23,7 +23,6 @@ module.exports = {
             lineNumbers: true
         },
         locales: {
-
             "/zh/": {
                 label: '简体中文',
                 selectText: '选择语言',
@@ -59,16 +58,23 @@ module.exports = {
                 ]
             }
         },
-        serviceWorker: true,
-        markdown: {
-            config: md => {
-            }
-        },
-        plugins: {
-            mathjax: {
+    },
+    serviceWorker: true,
+    plugins: [
+        [
+            'vuepress-plugin-mathjax',
+            {
                 target: 'chtml',
-                presets: [],
+                macros: {
+                    '>=': '\\geqslant',
+                },
+            }
+        ],
+        [
+            'vuepress-plugin-container',
+            {
+                type: 'ranked',
             },
-        }
-    }
+        ],
+    ]
 }
