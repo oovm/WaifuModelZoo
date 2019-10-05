@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "platforms/rust"
+]
+
+[profile.release]
+lto = true
+
+[profile.bench]
+debug = true
